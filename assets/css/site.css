@@ -5,3 +5,27 @@ font-family: "Oswald", sans-serif; */
   margin: 0px;
   padding: 0px;
 }
+header{
+  display: flex;
+  justify-content: center;
+}
+#galleryImage {
+  max-width: 500px;
+}
+#app{
+  display: flex;
+  justify-content: center;
+}
+#back, #forward{
+  display: flex;
+  align-self: center;
+  width: 1rem;
+  height: 1rem;
+}
+p{
+  font-size: 2rem;
+}
+p:hover{
+  cursor: pointer;
+}
+
